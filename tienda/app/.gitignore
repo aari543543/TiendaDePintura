@@ -1,0 +1,23 @@
+# Archivos compilados de Java
+*.class
+*.jar
+
+# Directorios de build
+/target/
+/build/
+/out/
+/bin/
+
+# IDE
+/.idea/
+*.iml
+*.classpath
+*.project
+.settings/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
