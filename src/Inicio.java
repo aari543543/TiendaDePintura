@@ -91,6 +91,11 @@ public class Inicio extends javax.swing.JFrame  {
         jMenu1.setText("Clientes");
 
         jMenuItem1.setText("Registrar");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
         jMenu1.add(jMenuItem1);
 
         jMenuItem3.setText("Consultar");
@@ -207,6 +212,13 @@ public class Inicio extends javax.swing.JFrame  {
         hs.setLocationRelativeTo(null);
         hs.setVisible(true);
     }//GEN-LAST:event_jMenuItem6ActionPerformed
+
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        // TODO add your handling code here:
+        RegistrarCliente rc = new RegistrarCliente();
+        rc.setLocationRelativeTo(null);
+        rc.setVisible(true);
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
      * @param args the command line arguments
