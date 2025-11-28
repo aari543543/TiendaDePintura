@@ -7,7 +7,7 @@
  *
  * @author vicga
  */
-public class Historial extends javax.swing.JInternalFrame {
+public class Historial extends javax.swing.JFrame {
 
     /**
      * Creates new form RegistrarVenta

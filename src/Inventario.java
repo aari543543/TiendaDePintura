@@ -7,7 +7,7 @@
  *
  * @author vicga
  */
-public class Inventario extends javax.swing.JInternalFrame {
+public class Inventario extends javax.swing.JFrame {
 
     /**
      * Creates new form RegistrarVenta
